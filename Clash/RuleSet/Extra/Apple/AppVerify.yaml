@@ -1,0 +1,16 @@
+payload:
+  # Help MacOS 10.14.5, software is checked for notarization before it will run 
+  # from https://support.apple.com/en-us/HT210060
+  # Apple App notarization
+  - IP-CIDR,17.248.128.0/18
+  - IP-CIDR,17.250.64.0/18
+  - IP-CIDR,17.248.192.0/19
+  # Apple Certificate validation
+  - DOMAIN-SUFFIX,crl.apple.com
+  - DOMAIN-SUFFIX,crl.entrust.net
+  - DOMAIN-SUFFIX,crl3.digicert.com
+  - DOMAIN-SUFFIX,crl4.digicert.com
+  - DOMAIN-SUFFIX,ocsp.apple.com
+  - DOMAIN-SUFFIX,ocsp.digicert.com
+  - DOMAIN-SUFFIX,ocsp.entrust.net
+  - DOMAIN-SUFFIX,ocsp.verisign.net
