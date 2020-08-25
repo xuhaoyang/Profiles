@@ -2,6 +2,8 @@
 
 Telegram 的主分流文件 Telegram.list 已收录于 Global.list 中，如无确切目的不需要额外添加。
 
+TelegramAll.yaml 包含全部Telegram地址
+
 Telegram.yaml 用于专门想对 Telegram 服务进行指定服务器节点，以达到加速目的所用。
 
 而至于其他三个分流文件：
