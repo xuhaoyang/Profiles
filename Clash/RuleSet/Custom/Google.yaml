@@ -1,0 +1,4 @@
+payload:
+  # > Code
+  - PROCESS-NAME,com.google.android.gms
+  - PROCESS-NAME,com.android.vending
