@@ -1,0 +1,12 @@
+payload:
+  # > Code
+  - DOMAIN-SUFFIX,gradle-dn.com
+  - DOMAIN-SUFFIX,gradle.org
+  - DOMAIN-SUFFIX,gradle.org
+  - DOMAIN-SUFFIX,bintray.com
+  - DOMAIN-KEYWORD,github
+  - DOMAIN-SUFFIX,githubusercontent.com
+  - DOMAIN-SUFFIX,apache.org
+  - DOMAIN-KEYWORD,jitpack
+  - DOMAIN-SUFFIX,linode.com
+  - DOMAIN-SUFFIX,npmjs.org
