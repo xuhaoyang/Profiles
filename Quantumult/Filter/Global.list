@@ -6,11 +6,10 @@ DOMAIN-SUFFIX,appspot.com,PROXY
 DOMAIN-SUFFIX,blogger.com,PROXY
 DOMAIN-SUFFIX,getoutline.org,PROXY
 DOMAIN-SUFFIX,gvt0.com,PROXY
-DOMAIN-SUFFIX,gvt1.com,PROXY
 DOMAIN-SUFFIX,gvt3.com,PROXY
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com,PROXY
 DOMAIN-KEYWORD,google,PROXY
-DOMAIN-KEYWORD,blogspot,PROXY
+DOMAIN-KEYWORD,.blogspot.,PROXY
 # > Microsoft
 DOMAIN-SUFFIX,onedrive.live.com,PROXY
 DOMAIN,az416426.vo.msecnd.net,PROXY
@@ -165,7 +164,6 @@ DOMAIN-SUFFIX,earthcam.com,PROXY
 DOMAIN-SUFFIX,ebookservice.tw,PROXY
 DOMAIN-SUFFIX,economist.com,PROXY
 DOMAIN-SUFFIX,edgecastcdn.net,PROXY
-DOMAIN-SUFFIX,edu,PROXY
 DOMAIN-SUFFIX,edx-cdn.org,PROXY
 DOMAIN-SUFFIX,elpais.com,PROXY
 DOMAIN-SUFFIX,enanyang.my,PROXY
@@ -198,7 +196,6 @@ DOMAIN-SUFFIX,githubusercontent.com,PROXY
 DOMAIN-SUFFIX,globalvoices.org,PROXY
 DOMAIN-SUFFIX,goo.ne.jp,PROXY
 DOMAIN-SUFFIX,goodreads.com,PROXY
-DOMAIN-SUFFIX,gov,PROXY
 DOMAIN-SUFFIX,gov.tw,PROXY
 DOMAIN-SUFFIX,greatfire.org,PROXY
 DOMAIN-SUFFIX,gumroad.com,PROXY
@@ -258,7 +255,6 @@ DOMAIN-SUFFIX,maying.co,PROXY
 DOMAIN-SUFFIX,medium.com,PROXY
 DOMAIN-SUFFIX,mega.nz,PROXY
 DOMAIN-SUFFIX,mergersandinquisitions.com,PROXY
-DOMAIN-SUFFIX,mil,PROXY
 DOMAIN-SUFFIX,mingpao.com,PROXY
 DOMAIN-SUFFIX,mixi.jp,PROXY
 DOMAIN-SUFFIX,mobile01.com,PROXY
@@ -283,7 +279,6 @@ DOMAIN-SUFFIX,now.com,PROXY
 DOMAIN-SUFFIX,nrk.no,PROXY
 DOMAIN-SUFFIX,nuget.org,PROXY
 DOMAIN-SUFFIX,nyaa.si,PROXY
-DOMAIN-SUFFIX,nyaa.si,PROXY
 DOMAIN-SUFFIX,nyt.com,PROXY
 DOMAIN-SUFFIX,nytchina.com,PROXY
 DOMAIN-SUFFIX,nytcn.me,PROXY
@@ -304,6 +299,7 @@ DOMAIN-SUFFIX,pbxes.com,PROXY
 DOMAIN-SUFFIX,pcdvd.com.tw,PROXY
 DOMAIN-SUFFIX,pchome.com.tw,PROXY
 DOMAIN-SUFFIX,pcloud.com,PROXY
+DOMAIN-SUFFIX,peing.net,PROXY
 DOMAIN-SUFFIX,picacomic.com,PROXY
 DOMAIN-SUFFIX,pinimg.com,PROXY
 DOMAIN-SUFFIX,pixiv.net,PROXY
@@ -325,6 +321,7 @@ DOMAIN-SUFFIX,qz.com,PROXY
 DOMAIN-SUFFIX,radio.garden,PROXY
 DOMAIN-SUFFIX,rakuten.co.jp,PROXY
 DOMAIN-SUFFIX,rarbgprx.org,PROXY
+DOMAIN-SUFFIX,reabble.com,PROXY
 DOMAIN-SUFFIX,readingtimes.com.tw,PROXY
 DOMAIN-SUFFIX,readmoo.com,PROXY
 DOMAIN-SUFFIX,redbubble.com,PROXY
@@ -381,6 +378,7 @@ DOMAIN-SUFFIX,uptodown.com,PROXY
 DOMAIN-SUFFIX,urbandictionary.com,PROXY
 DOMAIN-SUFFIX,ustream.tv,PROXY
 DOMAIN-SUFFIX,uwants.com,PROXY
+DOMAIN-SUFFIX,v2fly.org,PROXY
 DOMAIN-SUFFIX,v2ray.com,PROXY
 DOMAIN-SUFFIX,viber.com,PROXY
 DOMAIN-SUFFIX,videopress.com,PROXY
@@ -434,9 +432,11 @@ DOMAIN,s3-ap-southeast-2.amazonaws.com,PROXY
 DOMAIN,search.avira.com,PROXY
 DOMAIN,us.weibo.com,PROXY
 
-DOMAIN-KEYWORD,jav,PROXY
-DOMAIN-KEYWORD,pinterest,PROXY
-DOMAIN-KEYWORD,porn,PROXY
+DOMAIN-KEYWORD,.pinterest.,PROXY
+
+DOMAIN-SUFFIX,edu,PROXY
+DOMAIN-SUFFIX,gov,PROXY
+DOMAIN-SUFFIX,mil,PROXY
 
 # (IP Blackhole)
 # > Facebook
@@ -506,14 +506,16 @@ DOMAIN,itunes.apple.com,PROXY
 # > Spotlight
 DOMAIN,api-glb-sea.smoot.apple.com,PROXY
 # > Look Up
-DOMAIN,lookup-api.apple.com,PROXY
 DOMAIN-SUFFIX,smoot.apple.com,PROXY
+DOMAIN,lookup-api.apple.com,PROXY
 # > Apple Music Web
 DOMAIN,beta.music.apple.com,PROXY
 # ------
 # > Others
 DOMAIN-SUFFIX,bing.com,PROXY
 DOMAIN-SUFFIX,cccat.io,PROXY
+DOMAIN-SUFFIX,dubox.com,PROXY
+DOMAIN-SUFFIX,duboxcdn.com,PROXY
 DOMAIN-SUFFIX,ifixit.com,PROXY
 DOMAIN-SUFFIX,mangakakalot.com,PROXY
 DOMAIN-SUFFIX,shopeemobile.com,PROXY
@@ -522,7 +524,6 @@ DOMAIN-SUFFIX,shopeemobile.com,PROXY
 # > Fix download or update is stuck in App Store,and when change the Apple ID region,the payment information can be selected by none.
 DOMAIN-KEYWORD,buy.itunes.apple.com,PROXY
 DOMAIN-SUFFIX,cloudcone.com.cn,PROXY
-# DOMAIN-SUFFIX,evernote.com,PROXY
 DOMAIN-SUFFIX,inkbunny.net,PROXY
 DOMAIN-SUFFIX,metapix.net,PROXY
 DOMAIN-SUFFIX,s3.amazonaws.com,PROXY

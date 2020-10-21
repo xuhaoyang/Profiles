@@ -1,17 +1,16 @@
 payload:
   # (DNS Cache Pollution)
   # > Apple
-  - DOMAIN,testflight.apple.com,PROXY
+  - DOMAIN,testflight.apple.com
   # > Google
   - DOMAIN-SUFFIX,appspot.com
   - DOMAIN-SUFFIX,blogger.com
   - DOMAIN-SUFFIX,getoutline.org
   - DOMAIN-SUFFIX,gvt0.com
-  - DOMAIN-SUFFIX,gvt1.com
   - DOMAIN-SUFFIX,gvt3.com
   - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
   - DOMAIN-KEYWORD,google
-  - DOMAIN-KEYWORD,blogspot
+  - DOMAIN-KEYWORD,.blogspot.
   # > Microsoft
   - DOMAIN-SUFFIX,onedrive.live.com
   - DOMAIN,az416426.vo.msecnd.net
@@ -170,7 +169,6 @@ payload:
   - DOMAIN-SUFFIX,ebookservice.tw
   - DOMAIN-SUFFIX,economist.com
   - DOMAIN-SUFFIX,edgecastcdn.net
-  - DOMAIN-SUFFIX,edu
   - DOMAIN-SUFFIX,edx-cdn.org
   - DOMAIN-SUFFIX,elpais.com
   - DOMAIN-SUFFIX,enanyang.my
@@ -203,7 +201,6 @@ payload:
   - DOMAIN-SUFFIX,globalvoices.org
   - DOMAIN-SUFFIX,goo.ne.jp
   - DOMAIN-SUFFIX,goodreads.com
-  - DOMAIN-SUFFIX,gov
   - DOMAIN-SUFFIX,gov.tw
   - DOMAIN-SUFFIX,greatfire.org
   - DOMAIN-SUFFIX,gumroad.com
@@ -263,7 +260,6 @@ payload:
   - DOMAIN-SUFFIX,medium.com
   - DOMAIN-SUFFIX,mega.nz
   - DOMAIN-SUFFIX,mergersandinquisitions.com
-  - DOMAIN-SUFFIX,mil
   - DOMAIN-SUFFIX,mingpao.com
   - DOMAIN-SUFFIX,mixi.jp
   - DOMAIN-SUFFIX,mobile01.com
@@ -288,7 +284,6 @@ payload:
   - DOMAIN-SUFFIX,nrk.no
   - DOMAIN-SUFFIX,nuget.org
   - DOMAIN-SUFFIX,nyaa.si
-  - DOMAIN-SUFFIX,nyaa.si
   - DOMAIN-SUFFIX,nyt.com
   - DOMAIN-SUFFIX,nytchina.com
   - DOMAIN-SUFFIX,nytcn.me
@@ -309,6 +304,7 @@ payload:
   - DOMAIN-SUFFIX,pcdvd.com.tw
   - DOMAIN-SUFFIX,pchome.com.tw
   - DOMAIN-SUFFIX,pcloud.com
+  - DOMAIN-SUFFIX,peing.net
   - DOMAIN-SUFFIX,picacomic.com
   - DOMAIN-SUFFIX,pinimg.com
   - DOMAIN-SUFFIX,pixiv.net
@@ -330,6 +326,7 @@ payload:
   - DOMAIN-SUFFIX,radio.garden
   - DOMAIN-SUFFIX,rakuten.co.jp
   - DOMAIN-SUFFIX,rarbgprx.org
+  - DOMAIN-SUFFIX,reabble.com
   - DOMAIN-SUFFIX,readingtimes.com.tw
   - DOMAIN-SUFFIX,readmoo.com
   - DOMAIN-SUFFIX,redbubble.com
@@ -386,6 +383,7 @@ payload:
   - DOMAIN-SUFFIX,urbandictionary.com
   - DOMAIN-SUFFIX,ustream.tv
   - DOMAIN-SUFFIX,uwants.com
+  - DOMAIN-SUFFIX,v2fly.org
   - DOMAIN-SUFFIX,v2ray.com
   - DOMAIN-SUFFIX,viber.com
   - DOMAIN-SUFFIX,videopress.com
@@ -439,18 +437,20 @@ payload:
   - DOMAIN,search.avira.com
   - DOMAIN,us.weibo.com
 
-  - DOMAIN-KEYWORD,jav
-  - DOMAIN-KEYWORD,pinterest
-  - DOMAIN-KEYWORD,porn
+  - DOMAIN-KEYWORD,.pinterest.
+
+  - DOMAIN-SUFFIX,edu
+  - DOMAIN-SUFFIX,gov
+  - DOMAIN-SUFFIX,mil
 
   # (IP Blackhole)
   # > Google
+  - DOMAIN-SUFFIX,google
   - DOMAIN-SUFFIX,abc.xyz
   - DOMAIN-SUFFIX,advertisercommunity.com
   - DOMAIN-SUFFIX,ampproject.org
   - DOMAIN-SUFFIX,android.com
   - DOMAIN-SUFFIX,androidify.com
-  - DOMAIN-SUFFIX,dialogflow.com
   - DOMAIN-SUFFIX,autodraw.com
   - DOMAIN-SUFFIX,capitalg.com
   - DOMAIN-SUFFIX,certificate-transparency.org
@@ -461,6 +461,7 @@ payload:
   - DOMAIN-SUFFIX,creativelab5.com
   - DOMAIN-SUFFIX,debug.com
   - DOMAIN-SUFFIX,deepmind.com
+  - DOMAIN-SUFFIX,dialogflow.com
   - DOMAIN-SUFFIX,firebaseio.com
   - DOMAIN-SUFFIX,getmdl.io
   - DOMAIN-SUFFIX,ggpht.com
@@ -476,7 +477,6 @@ payload:
   - DOMAIN-SUFFIX,material.io
   - DOMAIN-SUFFIX,page.link
   - DOMAIN-SUFFIX,polymer-project.org
-  - DOMAIN-SUFFIX,admin.recaptcha.net
   - DOMAIN-SUFFIX,recaptcha.net
   - DOMAIN-SUFFIX,shattered.io
   - DOMAIN-SUFFIX,synergyse.com
@@ -520,17 +520,20 @@ payload:
   # > Spotlight
   - DOMAIN,api-glb-sea.smoot.apple.com
   # > Look Up
-  - DOMAIN,lookup-api.apple.com
   - DOMAIN-SUFFIX,smoot.apple.com
+  - DOMAIN,lookup-api.apple.com
   # > Apple Music Web
   - DOMAIN,beta.music.apple.com
   # ------
   # > Others
   - DOMAIN-SUFFIX,bing.com
   - DOMAIN-SUFFIX,cccat.io
+  - DOMAIN-SUFFIX,dubox.com
+  - DOMAIN-SUFFIX,duboxcdn.com
   - DOMAIN-SUFFIX,ifixit.com
   - DOMAIN-SUFFIX,mangakakalot.com
   - DOMAIN-SUFFIX,shopeemobile.com
+  # URL-REGEX,http:\/\/img\.sina\.com\/usweibo\/
 
   # (Network Jitter)
   # > Fix download or update is stuck in App Store,and when change the Apple ID region,the payment information can be selected by none.
