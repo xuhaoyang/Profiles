@@ -2,3 +2,9 @@ payload:
   # > Code
   - PROCESS-NAME,com.google.android.gms
   - PROCESS-NAME,com.android.vending
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+  - DOMAIN,services.googleapis.cn
+  # > Google Voice
+  - DOMAIN,lens.l.google.com
+  # > Chromecast with Google TV
+  - DOMAIN-KEYWORD,pa.google
