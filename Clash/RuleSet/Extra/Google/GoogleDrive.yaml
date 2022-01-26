@@ -2,6 +2,10 @@ payload:
   # > Google Drive
   - PROCESS-NAME,Backup and Sync
   - PROCESS-NAME,com.google.android.apps.docs
+  - PROCESS-NAME,Google Drive File Stream
+  - PROCESS-NAME,Google Drive File Stream Helper (GPU)
+  - PROCESS-NAME,Google Drive File Stream Helper (Renderer)
+  - PROCESS-NAME,rclone
   - DOMAIN-SUFFIX,docs.google.com
   - DOMAIN-SUFFIX,drive.google.com
   - DOMAIN-SUFFIX,googledrive.com

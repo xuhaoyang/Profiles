@@ -1,0 +1,5 @@
+payload:
+  # > Crack
+  - PROCESS-NAME,com.sohu.inputmethod.sogou.xiaomi
+  - PROCESS-NAME,com.miui.securityinputmethod
+  - DOMAIN-SUFFIX,omnigroup.com
