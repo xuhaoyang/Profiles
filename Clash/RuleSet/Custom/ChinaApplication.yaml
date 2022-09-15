@@ -2,3 +2,6 @@ payload:
  # MAC
  - PROCESS-NAME,WeChat
  - PROCESS-NAME,QQ
+ # Android
+ - PROCESS-NAME,com.hengye.share
+ - PROCESS-NAME,tv.danmaku.bili
