@@ -1,0 +1,4 @@
+payload:
+ # MAC
+ - PROCESS-NAME,WeChat
+ - PROCESS-NAME,QQ
