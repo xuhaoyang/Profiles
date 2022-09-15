@@ -1,0 +1,13 @@
+payload:
+  - PROCESS-NAME,Thunder
+  - PROCESS-NAME,qBittorrent
+  - PROCESS-NAME,Transmission
+  - PROCESS-NAME,fdm
+  - PROCESS-NAME,aria2c
+  - PROCESS-NAME,NetTransport
+  - PROCESS-NAME,uTorrent
+  - PROCESS-NAME,WebTorrent
+  - PROCESS-NAME,BaiduNetdisk_mac
+  - PROCESS-NAME,NeatDownloadManager
+  - PROCESS-NAME,夸克网盘
+  - PROCESS-NAME,夸克网盘 Helper
